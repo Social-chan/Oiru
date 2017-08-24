@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Support;
+namespace Socialchan\Oiru\Support;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 

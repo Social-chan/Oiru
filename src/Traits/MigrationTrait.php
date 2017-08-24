@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Traits;
+namespace Socialchan\Oiru\Traits;
 
 trait MigrationTrait
 {

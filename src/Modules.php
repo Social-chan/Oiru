@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Socialchan\Oiru;
 
-use Caffeinated\Modules\Contracts\Repository;
-use Caffeinated\Modules\Exceptions\ModuleNotFoundException;
+use Socialchan\Oiru\Contracts\Repository;
+use Socialchan\Oiru\Exceptions\ModuleNotFoundException;
 use Illuminate\Foundation\Application;
 
 class Modules

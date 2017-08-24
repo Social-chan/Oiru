@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Providers;
+namespace Socialchan\Oiru\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;

@@ -1,21 +1,21 @@
 <?php
 
-namespace Caffeinated\Modules\Middleware;
+namespace Socialchan\Oiru\Middleware;
 
-use Caffeinated\Modules\Modules;
+use Socialchan\Oiru\Modules;
 use Closure;
 
 class IdentifyModule
 {
     /**
-     * @var Caffeinated\Modules
+     * @var Socialchan\Oiru
      */
     protected $module;
 
     /**
      * Create a new IdentifyModule instance.
      *
-     * @param Caffeinated\Modules $module
+     * @param Socialchan\Oiru $module
      */
     public function __construct(Modules $module)
     {

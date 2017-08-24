@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Facades;
+namespace Socialchan\Oiru\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

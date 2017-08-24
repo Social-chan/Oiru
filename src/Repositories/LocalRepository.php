@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Repositories;
+namespace Socialchan\Oiru\Repositories;
 
 class LocalRepository extends Repository
 {

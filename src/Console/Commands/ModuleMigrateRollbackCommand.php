@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Socialchan\Oiru\Console\Commands;
 
-use Caffeinated\Modules\Modules;
-use Caffeinated\Modules\Traits\MigrationTrait;
+use Socialchan\Oiru\Modules;
+use Socialchan\Oiru\Traits\MigrationTrait;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Database\Migrations\Migrator;

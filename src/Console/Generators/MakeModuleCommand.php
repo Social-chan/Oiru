@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Socialchan\Oiru\Console\Generators;
 
-use Caffeinated\Modules\Modules;
+use Socialchan\Oiru\Modules;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Helper\ProgressBar;

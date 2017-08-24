@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Contracts;
+namespace Socialchan\Oiru\Contracts;
 
 interface Repository
 {

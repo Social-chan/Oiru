@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Repositories;
+namespace Socialchan\Oiru\Repositories;
 
 use Exception;
-use Caffeinated\Modules\Contracts\Repository as RepositoryContract;
+use Socialchan\Oiru\Contracts\Repository as RepositoryContract;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
 

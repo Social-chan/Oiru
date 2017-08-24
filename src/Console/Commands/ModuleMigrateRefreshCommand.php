@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Socialchan\Oiru\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;

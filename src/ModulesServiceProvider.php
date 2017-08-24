@@ -1,13 +1,13 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Socialchan\Oiru;
 
-use Caffeinated\Modules\Contracts\Repository;
-use Caffeinated\Modules\Providers\BladeServiceProvider;
-use Caffeinated\Modules\Providers\ConsoleServiceProvider;
-use Caffeinated\Modules\Providers\GeneratorServiceProvider;
-use Caffeinated\Modules\Providers\HelperServiceProvider;
-use Caffeinated\Modules\Providers\RepositoryServiceProvider;
+use Socialchan\Oiru\Contracts\Repository;
+use Socialchan\Oiru\Providers\BladeServiceProvider;
+use Socialchan\Oiru\Providers\ConsoleServiceProvider;
+use Socialchan\Oiru\Providers\GeneratorServiceProvider;
+use Socialchan\Oiru\Providers\HelperServiceProvider;
+use Socialchan\Oiru\Providers\RepositoryServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
 class ModulesServiceProvider extends ServiceProvider

@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Socialchan\Oiru\Console\Generators;
 
-use Caffeinated\Modules\Console\GeneratorCommand;
+use Socialchan\Oiru\Console\GeneratorCommand;
 use Illuminate\Support\Str;
 
 class MakeModelCommand extends GeneratorCommand

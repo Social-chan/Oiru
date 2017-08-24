@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Console;
+namespace Socialchan\Oiru\Console;
 
 use Illuminate\Console\GeneratorCommand as LaravelGeneratorCommand;
 use Illuminate\Support\Str;
