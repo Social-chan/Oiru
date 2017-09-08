@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/support": "5.4.*"
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*"
     },
     "autoload": {
         "psr-4": {
@@ -24,5 +24,15 @@
     },
     "suggest": {
         "wikimedia/composer-merge-plugin": "Allows the ability to create and merge composer.json files for your individual modules for module-specific dependency management."
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Socialchan\\Modules\\ModulesServiceProvider"
+            ],
+            "aliases": {
+                "Module": "Socialchan\\Modules\\Facades\\Module"
+            }
+        }
     }
 }
