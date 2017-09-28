@@ -23,7 +23,7 @@ class MakeModuleCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new Caffeinated module and bootstrap it';
+    protected $description = 'Create a new Oiru module and bootstrap it';
 
     /**
      * The modules instance.
@@ -65,7 +65,7 @@ class MakeModuleCommand extends Command
      *
      * @return mixed
      */
-    public function fire()
+    public function handle()
     {
         $this->container['slug'] = str_slug($this->argument('slug'));
         $this->container['name'] = studly_case($this->container['slug']);
